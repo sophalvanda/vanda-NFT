@@ -1,0 +1,499 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 125 vh;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+.sidebar{
+    display: flex;
+    background-color: rgb(213, 210, 210);
+}
+.group{
+    display: flex;
+}
+.container,
+.button{
+    background-color: rgb(213, 210, 210);
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+input{
+    padding: 10px;
+    margin-top: 10px;
+}
+a{
+    margin-right: 20px;
+}
+.nav{
+    background-color: #fff;
+    flex: 1;
+    padding-left: 20PX;
+    padding-top: 5PX;
+    justify-content: space-between;
+}
+.nav-top span{
+    font-size: 13px;
+}
+.nav-top{
+    display: flex;
+}
+.nav-top p{
+    margin-top: 6px;
+}
+.group-icon{
+    display: flex;
+    margin-top: 5px;
+}
+.group-icon p{
+    margin-top: 4px;
+}
+.nav-buttom{
+    background-image: url(/img/video.jpg);
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.nav-buttom span{
+    font-size: 12px;
+}
+.nav-buttom button{
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    margin-top: 80px;
+}
+.content{
+    background-color: rgb(213, 210, 210);
+    flex: 5;
+    display: flex;
+}
+.content-left{
+    flex: 2.9;
+    margin-left: 10px;
+}
+.content-right{
+    flex: 1.1;
+}
+.group-input{
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.group-input button{
+    width: 9%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title1{
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+.group-card{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.card{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: 23%;
+    margin-right: 10px;
+}
+.card1{
+    background-image: url(/img/video.jpg);
+    padding-left: 30px;
+    padding-bottom: 140px;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 5px;
+    margin-left: 30px;
+    justify-content: flex-end;
+}
+.card1 .card-left{
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.card{
+    margin-left: 20px;
+}
+.card-form{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.card h5{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+.card .text{
+    display: flex;
+    margin-top: -18px;
+}
+.profile{
+    display: flex;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: -1px;
+}
+.profile1{
+    flex: 2;
+}
+.profile2{
+    flex: 2;
+}
+.profile3{
+    flex: 2;
+}
+.profile img,
+.profile4 img,
+.content-right-footer img,
+.img1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.profile1-1{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    display: flex;
+}
+.image p{
+    margin-top: 15px;
+    font-size: 10px;
+}
+.image span{
+    font-size: 7px;
+}
+.title1{
+    margin-right: 20px;
+}
+.letter{
+    font-size: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+.letter span{
+    color: green;
+}
+.letter strong{
+    color: red;
+}
+.img1{
+    margin-top: -15px;
+}
+.img1 img{
+    width: 40px;
+    height: 40px;
+}
+.button1{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.button1-left{
+    display: flex;
+    justify-content: space-between;
+}
+.button1-left i{
+    margin-top: 15px;
+}
+.button1-right p{
+    font-size: 13px;
+}
+.button1-left strong{
+    font-size: 20px;
+}
+.button1-footer{
+    text-align: center;
+}
+.button1-footer button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 70%;
+}
+.profile4{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.group-footer{
+    display: flex;
+}
+.card-footer{
+    background-image: url(/img/da.jpg);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.big-card{
+    display: flex;
+}
+.form{
+    background-color: rgb(175, 39, 39);
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.form strong{
+    margin-left: 12px;
+    font-size: 10px;
+}
+.button1-left{
+    margin-right: 10px;
+}
+.content-right-footer{
+    background-color: #fff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+.class{
+    display: flex;
+}
+input{
+    margin-left: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    padding-top: 10px;
+    padding-right: 240px;
+}
+.button-top button{
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.button-top i{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.button-top  img{
+    margin-top: 10px;
+} 
+.button-top{
+    display: flex;
+}
+/* @media(max-width:768px){
+    .group-icon{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        flex: 0;
+    }
+    .group-icon p{
+        font-size: 15px;
+    }
+    .group-card{
+        width: 190%;
+    }
+    .class{
+        width: 400%;
+    }
+    .card{
+        width: 25%;
+    }
+    .card-hide{
+        display: none;
+    }
+    .profile-hide{
+        display: none;
+    }
+    .content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .profile{
+        width: 100%;
+    }
+    .hide{
+        display: none;
+    }
+    .button-center{
+        display: flex;
+        width: 80%;
+    }
+    .container{
+        display: flex;
+    }
+    .contain{
+        width: 50%;
+    }
+    .int-hide{
+        display: none;
+    }
+    .profile1{
+        width: 50%;
+    }
+    .button1{
+        width: 50%;
+    }
+    .profile4{
+        width: 50%;
+    }
+    .content-right{
+        width: 130%;
+    }
+}
+@media(max-width:600px){
+    input[type="date"],
+    input[type="time"]{
+        display: none;
+    }
+    body{
+        width: 390px;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .nav-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav p,
+    .nav strong{
+        display: none;
+    }
+    .icon1{
+        display: none;
+    }
+    .profile2-hide{
+        display: none;
+    }
+    .profile4{
+        display: none;
+    }
+    .profile{
+        width: 100%;
+    }
+    .group-card{
+        flex-direction: column;
+        width: 173%;
+    }
+    .card{
+        width: 59%;
+        margin-top: 10px;
+    }
+    .card1{
+        padding-top: 60px;
+    }
+    .hide-card{
+        display: none;
+    }
+    .content-right{
+        width: 135%;
+    }
+    .int{
+        display: none;
+    }
+    input{
+        width: 120%;
+    }
+}
+@media(max-width:500px){
+    input[type="date"],
+    input[type="time"]{
+        display: none;
+    }
+    body{
+        width: 390px;
+    }
+    .sidebar{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .nav-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav p,
+    .nav strong{
+        display: none;
+    }
+    .icon1{
+        display: none;
+    }
+    .profile2-hide{
+        display: none;
+    }
+    .profile{
+        width: 85%;
+    }
+    .profile4{
+        display: none;
+    }
+    .group-card{
+        flex-direction: column;
+    }
+    .card{
+        width: 50%;
+        margin-top: 10px;
+    }
+    .card1{
+        padding-top: 60px;
+    }
+    .hide-card{
+        display: none;
+    }
+    .button1{
+        width: 83%;
+    }
+    .content-right{
+        width: 123%;
+    }
+} */
